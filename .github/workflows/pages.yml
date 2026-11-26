@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Unpack project for build
         run: |
-          echo 'eac7a420dbd49e8a01cd13b60770d7e66f75673919240529d9bca4d9aa3beb94  credit-business-source.zip' | sha256sum --check
+          echo '42cfdf766d233b4e72aa7eb1c905ef9614e88093a9b2c8dfc6a943dfc3560aae  credit-business-source.zip' | sha256sum --check
           unzip -o credit-business-source.zip
       - uses: actions/setup-node@v4
         with:
